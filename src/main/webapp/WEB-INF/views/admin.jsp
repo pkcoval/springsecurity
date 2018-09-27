@@ -14,7 +14,7 @@
 
 
 
-<h3>My spring boot page</h3>
+<h3>Admin page</h3>
 
 </body>
 </html>
