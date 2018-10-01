@@ -13,13 +13,15 @@
 </head>
 <body>
 
-<h3 >Witaj a panelu user/admin</h3>
-<span au>
+<h3 >Witaj w panelu
+    <%=request.getUserPrincipal().getName().toString()%>
+</h3>
+
     <form:form action="/logout" method="post" >
     <input type="submit" value="Wyloguj"/>
 
     </form:form>
-</span>
+
 
 </body>
 </html>
